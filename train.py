@@ -15,5 +15,3 @@ model = clf.fit(iris.data, iris.target_names[iris.target])
 joblib.dump(model, '/app/models/iris_model.pkl')
 
 print("Model training complete and saved as iris_model.pkl")
-
-
